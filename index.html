@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт верстальщика</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Личный сайт верстальщика</h1>
+
+        <img src="img/laptop.svg" alt="логотип" width="50px" id="img2">
+<nav>
+<ul>
+    <li><a class="link" href="#about">
+        Обо мне
+    </a></li>
+    <li><a class="link" href="#articles">
+        Мои статьи
+    </a></li>
+    <li><a class="link" href="#feedback">
+        Обратная связь
+    </a></li>
+</ul>
+</nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>Обо мне</h2>
+            <a href="img/avata.jpg" download=""><img src="img/avata.jpg" width="400px" alt="фото автора"></a>
+            <p></p>
+            <p  lang="ru">Сергей - талантливый верстальщик сайтов, который начал свой путь в веб-разработке в возрасте 18 лет. Он является студентом Международного Института Дизайна и Сервиса (МИДИСА), где изучает различные аспекты дизайна и разработки веб-сайтов.
+
+                С первых шагов в программировании Сергей проявил огромный интерес к созданию красивых и функциональных веб-страниц. Он быстро освоил основы HTML и CSS, чтобы создавать эффектные и привлекательные дизайны. Сергей также изучает различные фреймворки и инструменты, такие как Bootstrap, чтобы улучшить свои навыки верстки.
+                
+                Сергей активно применяет свои знания и навыки, работая над различными проектами. Он создает адаптивные и пользовательские сайты, которые отлично смотрятся на любых устройствах. Благодаря своему творческому подходу и стремлению к совершенству, Сергей всегда стремится к тому, чтобы каждый проект был уникальным и отражал потребности и вкусы его клиентов.
+                
+                Помимо своих учебных обязанностей, Сергей активно участвует в онлайн-сообществе разработчиков, где делится своими знаниями и узнает новые технологии и подходы в веб-разработке. Он постоянно стремится к саморазвитию и поиску новых возможностей для улучшения своих навыков.
+                
+                Сергей - молодой и перспективный верстальщик сайтов, который полон энтузиазма и страсти к своей работе. С его творческим подходом и стремлением к совершенству, он готов создавать удивительные веб-сайты, которые будут впечатлять пользователей.</p>
+        </section>
+        <section id="articles">
+            <h2>Мои статьи</h2>
+
+            <ol>
+                <li><a class="link2" href="article1.html">Что такое HTML</a></li>
+                <li><a class="link3" href="article2.html">Что такое CSS</a></li>
+                <li><a class="link2" href="article3.html">Топ-5 редакторов кода</a></li>
+                <li><a class="link4" href="article4.html">Список терминов</a></li>
+                <li><a class="link2" href="article5.html">Что такое bootstrap</a></li>
+                
+            </ol>
+            
+        
+            <blockquote>
+                <p>Хороший программист всегда смотрит и направо, и налево прежде чем перейти улицу с односторонним движением.</p>
+                <footer lang="en">—Aldous Huxley, <cite>Brave New World</cite></footer>
+              </blockquote>
+            
+              <section id="feedback">
+                <form id="contact-form">
+                    <div class="form-item">
+                        <label for="topic">Тема</label><br>
+                        <select name="topic" id="topic" type="text">
+                            <option value="1">Заказать услугу</option>
+                            <option value="2">Оставить отзыв/замечание</option>
+                            <option value="3">Предложить сотрудничество</option>
+                            <option value="4">Другое</option>
+                        </select>
+    
+                    </div>
+                    <div class="form-item">
+                        <label for="name">Имя</label><br>
+                        <input name="name" id="name" type="text" placeholder="Имя" required>
+                    </div>
+                    <div class="form-item">
+                        <label for="E-mail">E-mail</label><br>
+                        <input name="E-mail" id="E-mail" type="email" placeholder="E-mail" required>
+                    </div>
+                    <div class="form-item">
+                        <label for="textarea">Текст сообщения</label><br>
+                        <textarea id="textarea" rows="8" type="text" placeholder="Текст" required></textarea>
+                    </div>
+                    <div class="form-item">
+                        <label for="date">Дата рождения</label><br>
+                        <input name="date" id="date" type="date" placeholder="Дата рождения" required>
+                    </div>
+                    <div class="form-item">
+                        <label for="name">Номер телефона</label><br>
+                        <input name="tel" id="tel" type="tel" placeholder="Номер телефона" required>
+                    </div>
+                    <div class="form-item">
+                        <label><input type="checkbox" value="" required>Согласие с политикой конфиденциальности</label><br>
+                       
+                    </div>
+                    <div class="form-item">
+                        <input type="submit">
+                    </div>
+                 </form>
+            </section>
+
+
+
+
+        </section>
+    </main>
+    <footer>
+    <p>&copy; Третьяков Сергей, 2023</p>
+    <p>Вы также можете найти меня </p>
+    <li><a class="link" href="https://portal.midis.info/" target="_blank" >MIDIS</a></li>
+    <li><a class="link" href="https://vk.com/" target="_blank" >VK</a></li>
+    <li><a class="link" href="https://mail.ru/?utm_source=portal&utm_medium=new_portal_navigation&utm_campaign=mail.ru&mt_click_id=mt-ds8xq6-1696943494-1154641088&mt_sub1=id.mail.ru">email</a></li>
+    </footer>
+    
+</body>
+</html>
