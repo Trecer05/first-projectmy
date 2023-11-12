@@ -218,10 +218,6 @@ tbody tr:nth-child(even) {
     background-color: #eddfff;
   }
   
-  #contact-form
-input[type="submit"] {
-    
-}
  
   
 #reg-form input[type=text],
@@ -273,7 +269,7 @@ background-color: #757575;
     margin-bottom: 10px;
     border: rgb(34, 34, 34) solid 1px;
     background-color: #adadadb0;
-    color: rgb(0, 0, 0) ;
+    color: rgb(161, 161, 161) ;
 }
 #contact-form input[type="submit"]:hover
 {
